@@ -38,9 +38,17 @@ Window > Asset Management > Addressables > Groups
 ## SOLID PRINCIPLES
 
 ### SINGLE RESPONSIBILITY PRINCIPLE
-### OPEN-CLOSE PRINCIPLE
-### LISKOV SUBSTITUTION PRINCIPLE
-### INTERFACE SEGREGATION PRINCIPLE
-### DEPEMDANCY INVERSION PRINCIPLE
+Code we write should only be responsible for one specific task.
 
+### OPEN-CLOSE PRINCIPLE
+This principle stands for the rule of creating new behavior by extending existing classes instead of modifying the classes' source code. Therefore open for extension and closed for modification.
+
+### LISKOV SUBSTITUTION PRINCIPLE
+The Liskov Substitution Principle (LSP) states that child class objects should be able to replace parent-class objects without compromising the application's integrity. In other words, put effort into the creation of derived class objects which can replace objects of the base class without modifying its behavior. If we don’t do it that way, inheritance might break our application integrity.
+
+### INTERFACE SEGREGATION PRINCIPLE
+if a class needs to implement an interface it will take advantage of every function it needs to declare, if there are functions that not all classes need, then the interface should be divided in two or more interfaces.
+
+### DEPENDANCY INVERSION PRINCIPLE
+A High level modules should not depend upon low level modules. Both should depend upon abstractions.
 
