@@ -87,4 +87,17 @@ This function is called when the behaviour becomes disabled or inactive.
 
 This function is called after all frame updates for the last frame of the object’s existence (the object might be destroyed in response to Object.Destroy or at the closure of a scene).
 
+## TIME
+
+https://docs.unity3d.com/ScriptReference/Time.html
+
+**Delta Time** - The interval in seconds from the last frame to the current one
+
+**Fixed Delta Time** - The interval in seconds at which physics and other fixed frame rate updates are performed.
+
+**Fixed Time** - The time since the last FixedUpdate started.
+
+**Frame Conut** - The total number of frames since the start of the game.
+
+**Smooth Delta Time** - A smoothed out Time.deltaTime
 
