@@ -35,3 +35,12 @@ Window > Asset Management > Addressables > Groups
  - **Continuous deployment** is the process of moving software that has been built and tested successfully into production.
  - Example - GIT
 
+## SOLID PRINCIPLES
+
+### SINGLE RESPONSIBILITY PRINCIPLE
+### OPEN-CLOSE PRINCIPLE
+### LISKOV SUBSTITUTION PRINCIPLE
+### INTERFACE SEGREGATION PRINCIPLE
+### DEPEMDANCY INVERSION PRINCIPLE
+
+
