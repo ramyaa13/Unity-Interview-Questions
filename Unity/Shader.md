@@ -19,3 +19,5 @@ Script that runs for each vertex of mesh and allow developer to apply transforma
 ### Pixel Shaders
 
 Script that runs for each fragment (three vertex) of mesh triangle that allows to apply UV / Texture coords and sample textures in order to control final color.
+
+https://www.raywenderlich.com/5671826-introduction-to-shaders-in-unity
