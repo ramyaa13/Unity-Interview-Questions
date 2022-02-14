@@ -10,3 +10,12 @@ Shadersare small scripts that contain the mathematical calculations and algorith
 
 Textures are bitmap images. A Material may contain references to textures, so that the Material’s shader can use the textures while calculating the surface colour of an object. 
 In addition to basic colour (albedo) of an obejct’s surface, textures can represent many other aspects of a material’s surface such as its reflectivity or roughness.
+
+### Vertext Shaders
+
+Script that runs for each vertex of mesh and allow developer to apply transformations, where vertex in 3D space.
+
+
+### Pixel Shaders
+
+Script that runs for each fragment (three vertex) of mesh triangle that allows to apply UV / Texture coords and sample textures in order to control final color.
