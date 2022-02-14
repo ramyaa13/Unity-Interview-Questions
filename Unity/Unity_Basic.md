@@ -99,5 +99,23 @@ https://docs.unity3d.com/ScriptReference/Time.html
 
 **Frame Conut** - The total number of frames since the start of the game.
 
+**Capture Delta Time** - Slows your application’s playback time to allow Unity to save screenshots in between frames.
+
 **Smooth Delta Time** - A smoothed out Time.deltaTime
+
+**Time.time** returns the amount of time since your project started playing.
+
+**Time.deltaTime** returns the amount of time that elapsed since the last frame completed.
+
+**Time.timeScale** represents the rate at which time elapses. You can read this value, or set it to control how fast time passes, allowing you to create slow-motion effects.
+
+## RANDOM
+
+**Random.value** gives you a random floating point number between 0.0 and 1.0.
+
+**Random.Range** gives you a random number between a minimum and maximum value that you provide.
+
+**Random.rotation** To generate a random rotation.
+
+**Random.ColorHSV** To generate a random color.
 
